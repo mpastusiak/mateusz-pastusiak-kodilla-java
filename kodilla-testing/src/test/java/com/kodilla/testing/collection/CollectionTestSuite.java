@@ -12,14 +12,6 @@ public class CollectionTestSuite {
     public void after(){
         System.out.println("Zakończono test klasy wybierającej parzyste liczby z kolekcji");
     }
-    @BeforeClass
-    public static void beforeClass() {
-        System.out.println("");
-    }
-    @AfterClass
-    public static void afterClass() {
-        System.out.println("");
-    }
     @Test
     public void testOddNumbersExterminatorEmptyList(){
         //Given
