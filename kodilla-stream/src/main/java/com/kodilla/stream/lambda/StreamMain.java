@@ -1,4 +1,4 @@
-package com.kodilla.stream;
+package com.kodilla.stream.lambda;
 
 import com.kodilla.stream.lambda.ExpressionExecutor;
 
