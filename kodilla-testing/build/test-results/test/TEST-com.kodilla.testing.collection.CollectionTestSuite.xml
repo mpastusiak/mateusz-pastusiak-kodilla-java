@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-23T17:08:49" hostname="ACER-Komputer" time="0.016">
+  <properties/>
+  <testcase name="testOddNumbersExterminatorEmptyList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.014"/>
+  <testcase name="testOddNumbersExterminatorNormalList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.001"/>
+  <system-out><![CDATA[RozpoczÄ™to test klasy wybierajÄ…cej parzyste liczby z kolekcji
+Testing []
+ZakoĹ„czono test klasy wybierajÄ…cej parzyste liczby z kolekcji
+RozpoczÄ™to test klasy wybierajÄ…cej parzyste liczby z kolekcji
+Testing [2, 4, 6]
+ZakoĹ„czono test klasy wybierajÄ…cej parzyste liczby z kolekcji
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
