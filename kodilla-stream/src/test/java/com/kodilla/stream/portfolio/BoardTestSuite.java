@@ -161,8 +161,17 @@ public class BoardTestSuite {
 
         double average = longSum / longCount;
 
+        //2. wersja
+        double doubleAverage = project.getTaskLists().stream()
+                .filter(inProgressTasks::contains)
+                .flatMap(tl -> tl.getTasks().stream())
+                .mapToDouble(t -> ChronoUnit.DAYS.between(t.getCreated(), LocalDate.now()))
+                .average()
+                .getAsDouble();
+
         //Then
         Assert.assertEquals(10, average, 0.01);
+        Assert.assertEquals(10, doubleAverage, 0.01);
 
     }
 }
