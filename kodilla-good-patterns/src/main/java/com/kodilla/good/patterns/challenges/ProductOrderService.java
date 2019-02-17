@@ -6,23 +6,14 @@ public class ProductOrderService implements OrderService {
 
     @Override
     public boolean order(User user, Product product, int quantity) {
-        if (isActiveUser(user) && areEnoughQuntityOfProduct(product, quantity))
-            return true;
-        else
-            return false;
+        return isActiveUser(user) && areEnoughQuntityOfProduct(product, quantity);
     }
 
-    public boolean isActiveUser(User user) {
-        if (Objects.equals(user.getUserStatus(), "active"))
-            return true;
-        else
-            return false;
+    private boolean isActiveUser(User user) {
+        return Objects.equals(user.getUserStatus(), "active");
     }
 
-    public boolean areEnoughQuntityOfProduct(Product product, int quantity) {
-        if (quantity <= product.getQuantityInStock())
-            return true;
-        else
-            return false;
+    private boolean areEnoughQuntityOfProduct(Product product, int quantity) {
+        return quantity <= product.getQuantityInStock();
     }
 }

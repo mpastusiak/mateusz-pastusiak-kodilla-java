@@ -5,7 +5,7 @@ public class MailService implements InformationService {
         sendMail(user.getMail(), statusOrder.getStatusInformationContent());
     }
 
-    public void sendMail(String mail, String message) {
+    private void sendMail(String mail, String message) {
         //send e-mail method
     }
 }

@@ -1,5 +1,5 @@
 package com.kodilla.good.patterns.challenges;
 
-public interface InformationService {
-    public void inform(User user, StatusOrder statusOrder);
+interface InformationService {
+    void inform(User user, StatusOrder statusOrder);
 }

@@ -3,11 +3,11 @@ package com.kodilla.good.patterns.challenges;
 import java.time.LocalDateTime;
 
 public class OrderRequest {
-    private User user;
-    private LocalDateTime orderTime;
-    private Product product;
-    private int quantity;
-    private StatusOrder statusOrder;
+    private final User user;
+    private final LocalDateTime orderTime;
+    private final Product product;
+    private final int quantity;
+    private final StatusOrder statusOrder;
 
     public OrderRequest (final User user, final LocalDateTime orderTime, final Product product, final int quantity,
                          final StatusOrder statusOrder) {

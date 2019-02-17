@@ -8,7 +8,7 @@ public class StreamMain {
         System.out.println(getListPositionsAsString());
     }
 
-    public static String getListPositionsAsString() {
+    private static String getListPositionsAsString() {
         return MovieStore.getMovies().values().stream()
                 .flatMap(Collection::stream)
                 .collect(Collectors.joining("!"));

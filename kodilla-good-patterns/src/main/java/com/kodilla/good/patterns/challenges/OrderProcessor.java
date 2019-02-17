@@ -1,9 +1,9 @@
 package com.kodilla.good.patterns.challenges;
 
-public class OrderProcessor {
-    private InformationService informationService;
-    private OrderService orderService;
-    private OrderRepository orderRepository;
+class OrderProcessor {
+    private final InformationService informationService;
+    private final OrderService orderService;
+    private final OrderRepository orderRepository;
 
     public OrderProcessor(final InformationService informationService,
                           final OrderService orderService,

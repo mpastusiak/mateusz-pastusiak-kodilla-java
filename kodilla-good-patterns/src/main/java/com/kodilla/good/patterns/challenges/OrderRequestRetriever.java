@@ -2,7 +2,7 @@ package com.kodilla.good.patterns.challenges;
 
 import java.time.LocalDateTime;
 
-public class OrderRequestRetriever {
+class OrderRequestRetriever {
     public OrderRequest retrieve() {
         User user = new User("Jan", "Kowalski", "jkowalski@mail.com", "active");
 

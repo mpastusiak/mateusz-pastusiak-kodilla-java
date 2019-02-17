@@ -1,9 +1,9 @@
 package com.kodilla.good.patterns.challenges;
 
 public class Product {
-    private String name;
-    private int catalogNumber;
-    private int quantityInStock;
+    private final String name;
+    private final int catalogNumber;
+    private final int quantityInStock;
 
     public Product(String name, int catalogNumber, int quantityInStock) {
         this.name = name;
