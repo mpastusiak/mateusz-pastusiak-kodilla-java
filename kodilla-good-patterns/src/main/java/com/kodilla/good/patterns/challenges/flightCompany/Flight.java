@@ -2,7 +2,7 @@ package com.kodilla.good.patterns.challenges.flightCompany;
 
 import java.util.Objects;
 
-public class Flight {
+class Flight {
     private final Airport departureAirport;
     private final Airport arrivalAirport;
 

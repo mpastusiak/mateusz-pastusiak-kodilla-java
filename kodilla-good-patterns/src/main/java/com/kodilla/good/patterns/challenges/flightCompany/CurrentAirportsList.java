@@ -2,10 +2,10 @@ package com.kodilla.good.patterns.challenges.flightCompany;
 
 import java.util.ArrayList;
 
-public class CurrentAirportsMap {
+class CurrentAirportsList {
     private final ArrayList<Airport> currentAirportsList = new ArrayList<>();
 
-    public void setCurrentAirportsList() {
+    private void setCurrentAirportsList() {
         currentAirportsList.add(new Airport("Walesa Airport", "Gdansk"));
         currentAirportsList.add(new Airport("Lawica Airport", "Poznan"));
         currentAirportsList.add(new Airport(null, "Radom"));
