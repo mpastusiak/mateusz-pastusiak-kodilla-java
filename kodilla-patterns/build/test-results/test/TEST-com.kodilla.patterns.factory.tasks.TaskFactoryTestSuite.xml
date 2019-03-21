@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-21T12:16:24" hostname="ACER-Komputer" time="0.019">
+<testsuite name="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-21T17:10:40" hostname="ACER-Komputer" time="0.02">
   <properties/>
-  <testcase name="testFactoryPainting" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.011"/>
+  <testcase name="testFactoryPainting" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.012"/>
   <testcase name="testFactoryDriving" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>
   <testcase name="testFactoryShopping" classname="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" time="0.004"/>
   <system-out><![CDATA[]]></system-out>

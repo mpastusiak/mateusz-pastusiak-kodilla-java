@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-21T12:16:24" hostname="ACER-Komputer" time="0.017">
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-21T17:10:40" hostname="ACER-Komputer" time="0.014">
   <properties/>
-  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.017"/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.014"/>
   <system-out><![CDATA[Library [Library number 1]
 
 Library [Library number 2]
 
 Library [Library number 3]
-Book{title='Book number 11', author='Author number 11', publicationDate=2008-12-17}
-Book{title='Book number 10', author='Author number 10', publicationDate=2009-11-18}
-Book{title='Book number 3', author='Author number 3', publicationDate=2016-04-25}
-Book{title='Book number 7', author='Author number 7', publicationDate=2012-08-21}
-Book{title='Book number 1', author='Author number 1', publicationDate=2018-02-27}
-Book{title='Book number 0', author='Author number 0', publicationDate=2019-01-28}
-Book{title='Book number 2', author='Author number 2', publicationDate=2017-03-26}
-Book{title='Book number 5', author='Author number 5', publicationDate=2014-06-23}
-Book{title='Book number 8', author='Author number 8', publicationDate=2011-09-20}
 Book{title='Book number 4', author='Author number 4', publicationDate=2015-05-24}
+Book{title='Book number 3', author='Author number 3', publicationDate=2016-04-25}
+Book{title='Book number 8', author='Author number 8', publicationDate=2011-09-20}
+Book{title='Book number 7', author='Author number 7', publicationDate=2012-08-21}
 Book{title='Book number 6', author='Author number 6', publicationDate=2013-07-22}
+Book{title='Book number 10', author='Author number 10', publicationDate=2009-11-18}
+Book{title='Book number 5', author='Author number 5', publicationDate=2014-06-23}
+Book{title='Book number 1', author='Author number 1', publicationDate=2018-02-27}
+Book{title='Book number 2', author='Author number 2', publicationDate=2017-03-26}
+Book{title='Book number 0', author='Author number 0', publicationDate=2019-01-28}
 Book{title='Book number 9', author='Author number 9', publicationDate=2010-10-19}
+Book{title='Book number 11', author='Author number 11', publicationDate=2008-12-17}
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
