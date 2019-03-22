@@ -75,20 +75,6 @@ public class InvoiceDaoTestSuite {
         item7.setInvoice(invoice2);
 
         //When
-        /*
-        productDao.save(apple);
-        productDao.save(banana);
-        productDao.save(cucumber);
-        productDao.save(date);
-        productDao.save(elderberry);
-        itemDao.save(item1);
-        itemDao.save(item2);
-        itemDao.save(item3);
-        itemDao.save(item4);
-        itemDao.save(item5);
-        itemDao.save(item6);
-        itemDao.save(item7);
-        */
         invoiceDao.save(invoice1);
         int invoiceId1 = invoice1.getId();
         invoiceDao.save(invoice2);
