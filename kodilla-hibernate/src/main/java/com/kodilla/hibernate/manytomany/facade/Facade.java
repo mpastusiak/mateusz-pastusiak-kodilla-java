@@ -30,7 +30,7 @@ public final class Facade {
 
     public List<Employee> getEmployeesByPartOfName(final String arg) {
         List<Employee> result = employeeDao.retrieveEmployeesByPartOfName(arg);
-        LOGGER.info("Employees with part of name - " + arg + " : \n" + result);
+        LOGGER.info("Employees with part of name - " + arg + " : \n" + result.toString());
         return result;
     }
 
