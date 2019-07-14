@@ -24,13 +24,13 @@ public final class Facade {
 
     public List<Company> getCompaniesByPartOfName(final String arg) {
         List<Company> result = companyDao.retrieveCompaniesByPartOfName(arg);
-        LOGGER.info("Company with given part name - " + arg + " : \n" + result.toString());
+        LOGGER.info("Companies with part of name - " + arg + " : \n" + result.toString());
         return result;
     }
 
     public List<Employee> getEmployeesByPartOfName(final String arg) {
         List<Employee> result = employeeDao.retrieveEmployeesByPartOfName(arg);
-        LOGGER.info("Employee with given name - " + arg + " : \n" + result);
+        LOGGER.info("Employees with part of name - " + arg + " : \n" + result);
         return result;
     }
 
