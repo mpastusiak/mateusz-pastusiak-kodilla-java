@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.spring.reader.ReaderTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-21T17:10:55" hostname="ACER-Komputer" time="0.062">
+<testsuite name="com.kodilla.spring.reader.ReaderTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-07-14T13:03:23" hostname="ACER-Komputer" time="0.035">
   <properties/>
-  <testcase name="testRead" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.03"/>
-  <testcase name="testConditional" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.032"/>
+  <testcase name="testRead" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.018"/>
+  <testcase name="testConditional" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.017"/>
   <system-out><![CDATA[Reading: The book number one
-Bean book2 was found in the container: true
+Bean book2 was found in the container: false
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
