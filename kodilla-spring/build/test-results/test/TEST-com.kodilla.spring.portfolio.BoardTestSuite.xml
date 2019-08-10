@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-14T13:03:23" hostname="ACER-Komputer" time="0.018">
+<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T19:22:24" hostname="ACER-Komputer" time="0.017">
   <properties/>
-  <testcase name="testRead" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.018"/>
+  <testcase name="testRead" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

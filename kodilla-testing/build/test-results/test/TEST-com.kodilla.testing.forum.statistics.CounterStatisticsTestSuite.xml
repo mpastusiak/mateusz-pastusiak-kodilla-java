@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-03-21T17:11:12" hostname="ACER-Komputer" time="0.426">
+<testsuite name="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-10T19:22:32" hostname="ACER-Komputer" time="0.187">
   <properties/>
-  <testcase name="testCalculateForecastWithMock2" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.42"/>
+  <testcase name="testCalculateForecastWithMock2" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.182"/>
   <testcase name="testCalculateForecastWithMock3" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.001"/>
   <testcase name="testCalculateForecastWithMock4" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.001"/>
   <testcase name="testCalculateForecastWithMock5" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.001"/>
   <testcase name="testCalculateForecastWithMock6" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.001"/>
-  <testcase name="testCalculateForecastWithMock" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.001"/>
+  <testcase name="testCalculateForecastWithMock" classname="com.kodilla.testing.forum.statistics.CounterStatisticsTestSuite" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
